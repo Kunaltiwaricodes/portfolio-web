@@ -1,0 +1,231 @@
+.home-banner,
+.banner-data {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+@font-face {
+  font-family: myfont2;
+  src: url(/img/Russian.ttf);
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(/img/Harukaze.ttf);
+}
+
+@font-face {
+  font-family: myfont3;
+  src: url(/img/Zenzai\ Itachi.ttf);
+}
+/* .sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.banner-data h1 {
+  font-size: 72px;
+  margin-bottom: 0;
+  /* font-family: "Sacramento", cursive; */
+  font-family: myfont;
+  /* margin-left: 50px; */
+  margin-top: -200px;
+  text-shadow: rgba(0, 0, 0, 0.595) 7px 3px 10px;
+}
+.banner-data h2 {
+  font-size: 6rem;
+  margin-top: 104px;
+  line-height: 0px;
+  margin-left: 8px;
+  text-shadow: 2px 1px 1px #fff;
+  font-family: myfont3;
+  text-shadow: rgba(0, 0, 0, 0.5) 7px 3px 10px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: myfont2;
+  font-weight: 700;
+  color: #2d3038;
+  text-shadow: rgba(0, 0, 0, 0.5) 7px 3px 10px;
+}
+@media (max-width: 767px) {
+  .hometwo .home-banner {
+    background-color: #fff;
+    margin-top: -6rem;
+  }
+}
+@media (max-width: 767px) {
+  .banner-data h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 479px) {
+  .banner-data h2 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .home .home-social {
+    margin-left: 15px;
+    margin-top: 1px;
+  }
+}
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 19rem;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  margin-left: 150px;
+  opacity: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+body,
+html {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  color: #2d3038;
+  scroll-behavior: smooth;
+  scroll-padding: auto;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  background-image: url(/img/finalbg.jpeg);
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.banner-data h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.banner-data {
+  margin-top: 173px;
+  margin-left: 30px;
+}
+h3 span {
+  text-shadow: chocolate 7px 3px 10px;
+}
+#about {
+  /* text-shadow: 1px 5px 21px  red; */
+  text-decoration: none;
+  color: #000000;
+  /* margin: 15px; */
+  padding: 11px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 18px;
+}
+#education {
+  /* text-shadow: 1px 5px 21px  red; */
+  text-decoration: none;
+  color: #000000;
+  padding: 11px;
+  margin: 7%;
+}
+#social {
+  /* background-color: rgb(12, 84, 3); */
+  text-decoration: none;
+  /* text-shadow: 1px 5px 21px  red; */
+  color: #000000;
+
+  padding: 11px;
+
+  text-align: center;
+}
+#contact {
+  text-decoration: none;
+  /* text-shadow: 1px 5px 21px  red; */
+  color: #000000;
+
+  padding: 11px;
+
+  text-align: center;
+}
+nav {
+  font-family: myfontregular;
+}
+.navbar {
+  background-image: url(https://resources.commerceup.io/?key=https://prod-admin-images.s3.amazonaws.com/QuCz8cmLZYbOsIAexD/product/1010133220600024-009.jpg&width=800&resourceKey=QuCz8cmLZYbOsIAexD);
+
+  text-align: center;
+  margin: auto;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration: none;
+  /* text-shadow: 1px 5px 21px  rgb(1, 0, 44); */
+  color: #000000;
+
+  padding: 11px;
+
+  text-align: center;
+}
+@font-face {
+  font-family: myfontregular;
+  src: url(/img/Signwood-Regular.ttf);
+}
+p {
+  font-family: myfontregular;
+  font-weight: bolder;
+  font-size: 30px;
+}
+a {
+  transition: all 0.5s ease;
+}
+.navbar background-image {
+  opacity: 60%;
+}
+h1,h2{
+  font-family: 'Baloo Bhai';
+}

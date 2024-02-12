@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONLINE PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+  </head>
+  <body>
+    <style>
+      @keyframes cloudLoop {
+        0% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+        100% {
+          -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+        }
+      }
+      .following img {
+        max-width: 70px;
+      }
+    </style>
+    <img
+      src="/img/org lal badal.png"
+      alt="img"
+      srcset=""
+      style="animation: cloudLoop 40s linear infinite"
+    />
+    <div class="home-banner">
+      <div class="banner-data">
+        <h1>Hey There, myself</h1>
+        <h2>Kunal Tiwari</h2>
+        <h3 id="typewriter"></h3>
+        <script>
+          var isTag,
+            text,
+            str = "A Passionate <span style='color:chocolate;'>Coder</span> ",
+            i = 0;
+          !(function e() {
+            if ((text = str.slice(0, ++i)) !== str) {
+              var t = (document.getElementById("typewriter").innerHTML =
+                text).slice(-1);
+              if (("<" === t && (isTag = !0), ">" === t && (isTag = !1), isTag))
+                return e();
+              setTimeout(e, 80);
+            }
+          })();
+        </script>
+        <br />
+      </div>
+    </div>
+    <div class="navbar">
+      <nav>
+        <a href="#section1" rel="noopener noreferrer" id="about">About Me</a>
+        <a href="#section2" rel="noopener noreferrer" id="education"
+          >Education</a
+        >
+        <a href="#section3" rel="noopener noreferrer" id="social">
+          Social Media & contacts</a
+        >
+      </nav>
+    </div>
+    <section id="section1"></section>
+    <h1 style="color: red">About Me</h1>
+    <p>
+      Hello, I'm Kunal Tiwari, a passionate 15-year-old programmer with a love
+      for coding. I embarked on my coding journey in October 2023, and since
+      then, I've delved into the realms of HTML, CSS, and C, mastering their
+      intricacies. I'm currently expanding my skills by delving into Python,
+      eager to explore its vast possibilities.
+    </p>
+
+    <h2  style="color: red">Skills:</h2>
+    <ul>
+      <li><p>Proficient in HTML and CSS</p></li>
+      <li><p>Proficient in C programming language</p></li>
+      <li>
+        <p>Basic understanding of Python, currently expanding knowledge</p>
+      </li>
+    </ul>
+
+    <h2  style="color: red">Interests:</h2>
+    <p>
+      I am deeply fascinated by programming and its endless possibilities.
+      Exploring new languages and solving complex problems excites me, driving
+      my quest for continuous learning and improvement.
+    </p>
+
+    <p>
+      Thank you for visiting my portfolio website. Let's connect and create
+      something amazing together!
+    </p>
+    <br /><br /><br />
+
+    <section id="section2">
+      <h1 style="color: red ", >Education:</h1>
+      <br />
+      <p>Garima Vidhya Vihar, Indore, MP</p>
+      <p>Grade: 9th</p>
+      <p>Courses Completed: HTML, CSS, C</p>
+    </section>
+    <br /><br /><br />
+    <section id="section3">
+      <h1 style="color: red">social media</h1>
+      <div class="social-icons">
+        <p>
+          GitHub:
+          <a href="https://github.com/Kunaltiwaricodes" target="_blank"
+            ><img
+              src="https://p1.hiclipart.com/preview/347/293/202/cat-icon-github-github-pages-user-computer-share-icon-source-code-black-png-clipart.jpg"
+              width="46px"
+              style="margin-left: 107px"
+              alt="Facebook"
+          /></a>
+        </p>
+        <p>
+          instagram:
+          <a
+            href="https://www.instagram.com/_kunal_tiwari__?utm_source=qr&igsh=ODhzWNpYW5hbnZh"
+            target="_blank"
+            ><img
+              src="https://www.pngfind.com/pngs/m/2-23339_black-and-white-instagram-logo-instagram-logo-2018.png"
+              width="46px"
+              style="margin-left: 52px"
+              alt="Instagram"
+          /></a>
+        </p>
+        <p>
+          linkedin:
+          <a
+            href="https://www.linkedin.com/in/kunal-tiwari-7072182b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            ><img
+              src="https://w7.pngwing.com/pngs/277/988/png-transparent-social-media-computer-icons-linkedin-black-angle-text-logo.png"
+              style="margin-left: 86px"
+              width="46px"
+              alt="LinkedIn"
+          /></a>
+        </p>
+
+        <!-- Add more social media icons as needed -->
+      </div>
+    </section>
+  </body>
+</html>
